@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 10px;
+}
+
+.brand {
+  text-align: center;
+  font-style: italic;
+}
+
+.row {
+  display: flex;
+  border: 1px solid black;
+}
+
+.quarter {
+  width: 25%;
+}
+
+.half {
+  width: 50%;
+}
+
+.three-quarter {
+  width: 75%;
+}
+.article {
+  padding: 0 10px;
+  border: 1px solid black;
+}
+
+.article-title {
+  font-weight: normal;
+  font-style: italic;
+  text-align: center;
+}
+
+.article-text {
+}
+
+.article-image {
+  width: 100%;
+}
+
+.categories-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+.category-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.category-section:nth-child(1) {
+  background-color: #ffeaa7;
+}
+
+.category-section:nth-child(2) {
+  background-color: #81ecec;
+}
+
+.category-section:nth-child(3) {
+  background-color: #55efc4;
+}
+
+.category-section:nth-child(4) {
+  background-color: #74b9ff;
+}
+
+.category-section:nth-child(5) {
+  background-color: #a29bfe;
+}
+
+.category-link {
+  text-decoration: none;
+  font-size: 30px;
+  padding-left: 30px;
+  font-weight: bold;
+  font-family: "Futura";
+  color: #666;
+}
